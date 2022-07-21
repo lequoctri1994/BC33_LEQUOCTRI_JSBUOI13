@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập JS Buổi 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <h1>Bài Tập JS Buổi 3</h1>
+
+
+
+    <div class="ex1">
+        <h2>Bài 1</h2>
+        <input id="salaryPerDay" type="text" placeholder="Nhập lương một ngày">
+        <input id="days" type="text" placeholder="Nhập số ngày làm">
+        <br>
+        <button class="calcSalary" id="calcSal" onclick="calcSalary()">Tính lương</button>
+        <div class="result" id="salary"><i class="fa-solid fa-hand-point-right"></i></div>
+    </div>
+
+
+    <div class="ex2">
+        <h2>Bài 2</h2>
+        <input id="num1" type="text" placeholder="Nhập số thứ 1">
+        <input id="num2" type="text" placeholder="Nhập số thứ 2">
+        <input id="num3" type="text" placeholder="Nhập số thứ 3">
+        <input id="num4" type="text" placeholder="Nhập số thứ 4">
+        <input id="num5" type="text" placeholder="Nhập số thứ 5">
+        <br>
+        <button onclick="calcAverage()">Tính trung bình</button>
+        <div class="result" id="result"><i class="fa-solid fa-hand-point-right"></i></div>
+    </div>
+
+    <div class="ex3">
+        <h2>Bài 3</h2>
+        <input id="USD" type="text" placeholder="Nhập số USD cần đổi">
+        <br>
+        <button class="exchange" id="exchange" onclick="exchangeMoney()">Quy đổi USD sang VNĐ</button>
+        <div class="result" id="result3"><i class="fa-solid fa-hand-point-right"></i></div>
+
+    </div>
+
+    <div class="ex4">
+        <h2>Bài 4</h2>
+        <input id="length" type="text" placeholder="Nhập chiều dài">
+        <input id="width" type="text" placeholder="Nhập chiều rộng">
+        <br>
+        <button id="calc" onclick="calcBoth()">Tính</button>
+        <p>Diện Tích</p>
+        <div class="result" id="result4"><i class="fa-solid fa-hand-point-right"></i></div>
+        <p>Chu Vi</p>
+        <div class="result" id="result5"><i class="fa-solid fa-hand-point-right"></i></div>
+    </div>
+
+    <div class="ex5">
+        <h2>Bài 5</h2>
+        <input id="num6" type="text" placeholder="Nhập số có 2 chữ số">
+        <br>
+        <button id="calc6" onclick="calc6()">Tính Tổng</button>
+        <div class="result" id="result6"><i class="fa-solid fa-hand-point-right"></i></div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

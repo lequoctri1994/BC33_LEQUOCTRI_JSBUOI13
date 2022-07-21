@@ -1,0 +1,112 @@
+.result {
+    background-color: rgb(160, 215, 179);
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#salary i {
+    color: yellow;
+}
+
+.ex1 {
+    background-color: beige;
+    padding: 30px 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.ex1 input {
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ex1 button {
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ex2 {
+    background-color: beige;
+    padding: 30px 10px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.ex2 input {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.ex2 button {
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ex3 {
+    background-color: beige;
+    padding: 30px 10px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+i {
+    color: yellow;
+}
+
+input {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ex4 {
+    background-color: beige;
+    padding: 30px 10px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.ex4 button {
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+.ex4 .result {
+    background-color: rgb(160, 215, 179);
+    width: 50%;
+    padding: 10px;
+}
+
+.ex4 p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ex5 {
+    background-color: beige;
+    padding: 30px 10px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
